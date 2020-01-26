@@ -1,0 +1,25 @@
+{
+  "name": "ds-auth-1-signup",
+  "version": "1.0.0",
+  "description": "In this exercise we now want to create signup for our pizza store, so the customer can register his address data. At a later point he will be able to easily place a new order without typing his whole address details again.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBW-17/ds-auth-1-signup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FBW-17/ds-auth-1-signup/issues"
+  },
+  "homepage": "https://github.com/FBW-17/ds-auth-1-signup#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9"
+  }
+}
